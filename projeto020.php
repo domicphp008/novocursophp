@@ -6,6 +6,7 @@
 </head>
 <body>
 	<?php
+	
 		function exibe($num){
 			if($num!= 0){
 				echo "Valor passado para a função: $num <br />";

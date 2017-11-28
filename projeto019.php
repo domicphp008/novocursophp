@@ -10,12 +10,12 @@
 
 		function salario ($num){
 			$num += 5;
-			echo "Salario com aumento: $num <br />";
+			echo  "Salario com aumento: $num <br />";
 		}
 
 		$salario = 8200;
 		salario($salario);
-		echo "Salario sem aumento: $salario <br />";
+		echo  "Salario sem aumento: $salario <br />";
 
 		echo "<h4>Passagem de Argumentos por referência</h4>";
 		function salarioa (&$num){
